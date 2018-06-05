@@ -1,0 +1,162 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+enter",
+        "command": "ipython.sendSelectedToIPython"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorFocus && editorHasSelection && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+shift+,",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus && !editorHasSelection"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+.",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus && !editorHasSelection"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+=",
+        "command": "expand_region", 
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+,",
+        "command": "-editor.action.inPlaceReplace.up",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+,",
+        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "when": "editorTextFocus && editorHasSelection"
+    },
+    {
+        "key": "ctrl+shift+.",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorTextFocus && editorHasSelection"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-block-travel.selectDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-block-travel.selectUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "-block-travel.jumpUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "-block-travel.jumpDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+]",
+        "command": "block-travel.selectDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+[",
+        "command": "block-travel.selectUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+]",
+        "command": "block-travel.jumpDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+[",
+        "command": "block-travel.jumpUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "extension.aceJump"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "-bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "-bookmarks.expandSelectionToNext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+j",
+        "command": "-bookmarks.expandSelectionToPrevious",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+k",
+        "command": "-bookmarks.shrinkSelection",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+s",
+        "command": "editor.action.insertSnippet"
+    },
+]
